@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "asterisktotle01"
+		},
+		"AzureDataLakeStorageKLinkedService_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"SqlServerOnPremLinkedService_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorageKLinkedService_properties_typeProperties_url": {
+			"value": "https://asterisktotle01.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://asterisktotle01.dfs.core.windows.net/"
+		},
+		"AzureDatabricksLinkedService_properties_typeProperties_existingClusterId": {
+			"value": "0628-043635-7eqatcx7"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://asterisktotle01.vault.azure.net/"
+		},
+		"SqlServerOnPremLinkedService_properties_typeProperties_server": {
+			"value": "Administrator\\SQLEXPRESS"
+		},
+		"SqlServerOnPremLinkedService_properties_typeProperties_database": {
+			"value": "PhHousingPrice"
+		},
+		"SqlServerOnPremLinkedService_properties_typeProperties_userName": {
+			"value": "Jander"
+		}
+	}
+}
