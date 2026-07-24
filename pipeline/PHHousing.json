@@ -1,0 +1,170 @@
+{
+	"name": "PHHousing",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fetch_PSGC",
+				"description": "Fetch Philippines region, province, and cities saved as delta format",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/bronze/psgc"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksLinkedService",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Look_Up_For_Tables_SMSS",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "SqlServerSource",
+						"sqlReaderQuery": {
+							"value": "SELECT\ns.name AS SchemaName,\nt.name AS TableName\nFROM sys.schemas AS s\nINNER JOIN sys.tables AS t\n    ON s.schema_id = t.schema_id\nWHERE s.name = 'bronze'",
+							"type": "Expression"
+						},
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "SqlServerOnPrem",
+						"type": "DatasetReference"
+					},
+					"firstRowOnly": false
+				}
+			},
+			{
+				"name": "for_each_table",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "Look_Up_For_Tables_SMSS",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Look_Up_For_Tables_SMSS').output.value",
+						"type": "Expression"
+					},
+					"activities": [
+						{
+							"name": "copy_table",
+							"description": "copy tables from SMSS bronze schema",
+							"type": "Copy",
+							"dependsOn": [],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"source": {
+									"type": "SqlServerSource",
+									"sqlReaderQuery": {
+										"value": "@concat('SELECT * FROM ', item().SchemaName, '.', item().TableName)",
+										"type": "Expression"
+									},
+									"queryTimeout": "02:00:00",
+									"partitionOption": "None"
+								},
+								"sink": {
+									"type": "ParquetSink",
+									"storeSettings": {
+										"type": "AzureBlobFSWriteSettings"
+									},
+									"formatSettings": {
+										"type": "ParquetWriteSettings"
+									}
+								},
+								"enableStaging": false,
+								"translator": {
+									"type": "TabularTranslator",
+									"typeConversion": true,
+									"typeConversionSettings": {
+										"allowDataTruncation": true,
+										"treatBooleanAsNumber": false
+									}
+								}
+							},
+							"inputs": [
+								{
+									"referenceName": "SqlServerOnPrem",
+									"type": "DatasetReference"
+								}
+							],
+							"outputs": [
+								{
+									"referenceName": "ParquetHousing",
+									"type": "DatasetReference",
+									"parameters": {
+										"tablename": {
+											"value": "@item().TableName",
+											"type": "Expression"
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			},
+			{
+				"name": "dim_geography_silver",
+				"description": "Create psgc dim_geography by joining\ncity and province",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Fetch_PSGC",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/silver/psgc_table"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricksLinkedService",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-07-19T15:59:50Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

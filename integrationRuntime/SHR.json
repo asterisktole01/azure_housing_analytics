@@ -1,0 +1,7 @@
+{
+	"name": "SHR",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "self-hosted integration runtime"
+	}
+}

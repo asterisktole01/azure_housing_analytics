@@ -1,0 +1,15 @@
+{
+	"name": "asterisktotle01",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "31ed43ac-5b87-4814-909d-a7c60007e114",
+		"tenantId": "24270854-1248-4570-a3fe-4546ff70ee36"
+	}
+}
