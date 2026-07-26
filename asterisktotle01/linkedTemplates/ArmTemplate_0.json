@@ -301,7 +301,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Fetch_PSGC",
+						"name": "broze_fetch_load_psgc",
 						"description": "Fetch Philippines region, province, and cities saved as delta format",
 						"type": "DatabricksNotebook",
 						"dependsOn": [],
@@ -314,7 +314,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/bronze/psgc"
+							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/azure_housing_analytics/databricks/bronze/psgc"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricksLinkedService",
@@ -435,12 +435,12 @@
 						}
 					},
 					{
-						"name": "dim_geography_silver",
+						"name": "silver_dim_geography",
 						"description": "Create psgc dim_geography by joining\ncity and province",
 						"type": "DatabricksNotebook",
 						"dependsOn": [
 							{
-								"activity": "Fetch_PSGC",
+								"activity": "broze_fetch_load_psgc",
 								"dependencyConditions": [
 									"Succeeded"
 								]
@@ -455,7 +455,97 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/silver/psgc_table"
+							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/azure_housing_analytics/databricks/silver/dim_geography"
+						},
+						"linkedServiceName": {
+							"referenceName": "AzureDatabricksLinkedService",
+							"type": "LinkedServiceReference"
+						}
+					},
+					{
+						"name": "silver_dim_fam",
+						"description": "transform clean family table with expense and income grouped by geographic location",
+						"type": "DatabricksNotebook",
+						"dependsOn": [
+							{
+								"activity": "for_each_table",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							},
+							{
+								"activity": "silver_dim_geography",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"policy": {
+							"timeout": "0.12:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/azure_housing_analytics/databricks/silver/dim_fam"
+						},
+						"linkedServiceName": {
+							"referenceName": "AzureDatabricksLinkedService",
+							"type": "LinkedServiceReference"
+						}
+					},
+					{
+						"name": "silver_dim_housing",
+						"description": "transform dim_housing table from raw housing data",
+						"type": "DatabricksNotebook",
+						"dependsOn": [
+							{
+								"activity": "silver_dim_fam",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"policy": {
+							"timeout": "0.12:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/azure_housing_analytics/databricks/silver/dim_housing"
+						},
+						"linkedServiceName": {
+							"referenceName": "AzureDatabricksLinkedService",
+							"type": "LinkedServiceReference"
+						}
+					},
+					{
+						"name": "gold_layer",
+						"description": "transform clean family table with expense and income grouped by geographic location",
+						"type": "DatabricksNotebook",
+						"dependsOn": [
+							{
+								"activity": "silver_dim_housing",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"policy": {
+							"timeout": "0.12:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"notebookPath": "/Users/jander.baranda.pro@gmail.com/PHHousingData/azure_housing_analytics/databricks/gold/gold_layer"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricksLinkedService",
