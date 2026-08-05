@@ -1,0 +1,83 @@
+provinceCode,provinceName,regionCode,islandGroupCode
+12800000,ilocos norte,10000000,luzon
+12900000,ilocos sur,10000000,luzon
+13300000,la union,10000000,luzon
+15500000,pangasinan,10000000,luzon
+20900000,batanes,20000000,luzon
+21500000,cagayan,20000000,luzon
+23100000,isabela,20000000,luzon
+25000000,nueva vizcaya,20000000,luzon
+25700000,quirino,20000000,luzon
+30800000,bataan,30000000,luzon
+31400000,bulacan,30000000,luzon
+34900000,nueva ecija,30000000,luzon
+35400000,pampanga,30000000,luzon
+36900000,tarlac,30000000,luzon
+37100000,zambales,30000000,luzon
+37700000,aurora,30000000,luzon
+41000000,batangas,40000000,luzon
+42100000,cavite,40000000,luzon
+43400000,laguna,40000000,luzon
+45600000,quezon,40000000,luzon
+45800000,rizal,40000000,luzon
+174000000,marinduque,170000000,luzon
+175100000,occidental mindoro,170000000,luzon
+175200000,oriental mindoro,170000000,luzon
+175300000,palawan,170000000,luzon
+175900000,romblon,170000000,luzon
+50500000,albay,50000000,luzon
+51600000,camarines norte,50000000,luzon
+51700000,camarines sur,50000000,luzon
+52000000,catanduanes,50000000,luzon
+54100000,masbate,50000000,luzon
+56200000,sorsogon,50000000,luzon
+60400000,aklan,60000000,visayas
+60600000,antique,60000000,visayas
+61900000,capiz,60000000,visayas
+63000000,iloilo,60000000,visayas
+64500000,negros occidental,60000000,visayas
+67900000,guimaras,60000000,visayas
+71200000,bohol,70000000,visayas
+72200000,cebu,70000000,visayas
+74600000,negros oriental,70000000,visayas
+76100000,siquijor,70000000,visayas
+82600000,eastern samar,80000000,visayas
+83700000,leyte,80000000,visayas
+84800000,northern samar,80000000,visayas
+86000000,samar,80000000,visayas
+86400000,southern leyte,80000000,visayas
+87800000,biliran,80000000,visayas
+97200000,zamboanga del norte,90000000,mindanao
+97300000,zamboanga del sur,90000000,mindanao
+98300000,zamboanga sibugay,90000000,mindanao
+101300000,bukidnon,100000000,mindanao
+101800000,camiguin,100000000,mindanao
+103500000,lanao del norte,100000000,mindanao
+104200000,misamis occidental,100000000,mindanao
+104300000,misamis oriental,100000000,mindanao
+112300000,davao del norte,110000000,mindanao
+112400000,davao del sur,110000000,mindanao
+112500000,davao oriental,110000000,mindanao
+118200000,davao de oro,110000000,mindanao
+118600000,davao occidental,110000000,mindanao
+124700000,cotabato,120000000,mindanao
+126300000,south cotabato,120000000,mindanao
+126500000,sultan kudarat,120000000,mindanao
+128000000,sarangani,120000000,mindanao
+140100000,abra,140000000,luzon
+141100000,benguet,140000000,luzon
+142700000,ifugao,140000000,luzon
+143200000,kalinga,140000000,luzon
+144400000,mountain province,140000000,luzon
+148100000,apayao,140000000,luzon
+160200000,agusan del norte,160000000,mindanao
+160300000,agusan del sur,160000000,mindanao
+166700000,surigao del norte,160000000,mindanao
+166800000,surigao del sur,160000000,mindanao
+168500000,dinagat islands,160000000,mindanao
+150700000,basilan,150000000,mindanao
+153600000,lanao del sur,150000000,mindanao
+153800000,maguindanao,150000000,mindanao
+156600000,sulu,150000000,mindanao
+157000000,tawi-tawi,150000000,mindanao
+130000000,metro manila,130000000,luzon
