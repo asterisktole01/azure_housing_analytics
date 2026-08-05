@@ -1,0 +1,229 @@
+geographyId,geographyLevel,geographyName,provinceCode,provinceName,islandGroup
+012805000,City,batac,012800000,ilocos norte,luzon
+023108000,City,cauayan,023100000,isabela,luzon
+034919000,City,palayan,034900000,nueva ecija,luzon
+064501000,City,bacolod,064500000,negros occidental,visayas
+126306000,City,koronadal,126300000,south cotabato,mindanao
+137502000,City,malabon,133900000,metro manila,luzon
+043403000,City,biñan,043400000,laguna,luzon
+064516000,City,la carlota,064500000,negros occidental,visayas
+072250000,City,talisay,072200000,cebu,visayas
+097202000,City,dipolog,097200000,zamboanga del norte,mindanao
+097322000,City,pagadian,097300000,zamboanga del sur,mindanao
+112315000,City,panabo,112300000,davao del norte,mindanao
+137501000,City,caloocan,133900000,metro manila,luzon
+137604000,City,parañaque,133900000,metro manila,luzon
+031420000,City,san jose del monte,031400000,bulacan,luzon
+034908000,City,gapan,034900000,nueva ecija,luzon
+043428000,City,santa rosa,043400000,laguna,luzon
+064531000,City,victorias,064500000,negros occidental,visayas
+071242000,City,tagbilaran,071200000,bohol,visayas
+160203000,City,cabadbaran,160200000,agusan del norte,mindanao
+166724000,City,surigao,166700000,surigao del norte,mindanao
+030803000,City,balanga,030800000,bataan,luzon
+041005000,City,batangas,041000000,batangas,luzon
+045624000,City,lucena,045600000,quezon,luzon
+050508000,City,ligao,050500000,albay,luzon
+056216000,City,sorsogon,056200000,sorsogon,luzon
+064509000,City,escalante,064500000,negros occidental,visayas
+101321000,City,valencia,101300000,bukidnon,mindanao
+104307000,City,el salvador,104300000,misamis oriental,mindanao
+112319000,City,tagum,112300000,davao del norte,mindanao
+015518000,City,dagupan,015500000,pangasinan,luzon
+021529000,City,tuguegarao,021500000,cagayan,luzon
+042105000,City,cavite,042100000,cavite,luzon
+042119000,City,tagaytay,042100000,cavite,luzon
+064504000,City,cadiz,064500000,negros occidental,visayas
+064527000,City,sipalay,064500000,negros occidental,visayas
+074604000,City,bais,074600000,negros oriental,visayas
+103504000,City,iligan,103500000,lanao del norte,mindanao
+104209000,City,oroquieta,104200000,misamis occidental,mindanao
+034917000,City,muñoz,034900000,nueva ecija,luzon
+041014000,City,lipa,041000000,batangas,luzon
+042106000,City,dasmariñas,042100000,cavite,luzon
+054111000,City,masbate,054100000,masbate,luzon
+064528000,City,talisay,064500000,negros occidental,visayas
+074606000,City,bayawan,074600000,negros oriental,visayas
+074610000,City,dumaguete,074600000,negros oriental,visayas
+086407000,City,maasin,086400000,southern leyte,visayas
+099701000,City,isabela,150700000,basilan,mindanao
+137403000,City,pasig,133900000,metro manila,luzon
+150702000,City,lamitan,150700000,basilan,mindanao
+153617000,City,marawi,153600000,lanao del sur,mindanao
+129804000,City,cotabato,null,null,null
+012934000,City,vigan,012900000,ilocos sur,luzon
+035409000,City,mabalacat,035400000,pampanga,luzon
+050506000,City,legazpi,050500000,albay,luzon
+061914000,City,roxas,061900000,capiz,visayas
+072214000,City,carcar,072200000,cebu,visayas
+074608000,City,canlaon,074600000,negros oriental,visayas
+083738000,City,ormoc,083700000,leyte,visayas
+097201000,City,dapitan,097200000,zamboanga del norte,mindanao
+104210000,City,ozamiz,104200000,misamis occidental,mindanao
+141102000,City,baguio,141100000,benguet,luzon
+031410000,City,malolos,031400000,bulacan,luzon
+036916000,City,tarlac,036900000,tarlac,luzon
+041031000,City,tanauan,041000000,batangas,luzon
+043424000,City,san pablo,043400000,laguna,luzon
+045802000,City,antipolo,045800000,rizal,luzon
+063035000,City,passi,063000000,iloilo,visayas
+072226000,City,lapu-lapu,072200000,cebu,visayas
+104305000,City,cagayan de oro,104300000,misamis oriental,mindanao
+137401000,City,mandaluyong,133900000,metro manila,luzon
+137404000,City,quezon,133900000,metro manila,luzon
+137503000,City,navotas,133900000,metro manila,luzon
+137602000,City,makati,133900000,metro manila,luzon
+166819000,City,tandag,166800000,surigao del sur,mindanao
+015532000,City,san carlos,015500000,pangasinan,luzon
+034903000,City,cabanatuan,034900000,nueva ecija,luzon
+035416000,City,san fernando,035400000,pampanga,luzon
+043404000,City,cabuyao,043400000,laguna,luzon
+051716000,City,iriga,051700000,camarines sur,luzon
+063022000,City,iloilo,063000000,iloilo,visayas
+074611000,City,guihulngan,074600000,negros oriental,visayas
+112317000,City,samal,112300000,davao del norte,mindanao
+015503000,City,alaminos,015500000,pangasinan,luzon
+034926000,City,san jose,034900000,nueva ecija,luzon
+042108000,City,general trias,042100000,cavite,luzon
+072211000,City,bogo,072200000,cebu,visayas
+072234000,City,naga,072200000,cebu,visayas
+086003000,City,calbayog,086000000,samar,visayas
+126303000,City,general santos,126300000,south cotabato,mindanao
+137601000,City,las piñas,133900000,metro manila,luzon
+137605000,City,pasay,133900000,metro manila,luzon
+137607000,City,taguig,133900000,metro manila,luzon
+042122000,City,trece martires,042100000,cavite,luzon
+072223000,City,danao,072200000,cebu,visayas
+074621000,City,tanjay,074600000,negros oriental,visayas
+083708000,City,baybay,083700000,leyte,visayas
+112402000,City,davao,112400000,davao del sur,mindanao
+124704000,City,kidapawan,124700000,cotabato,mindanao
+137504000,City,valenzuela,133900000,metro manila,luzon
+137603000,City,muntinlupa,133900000,metro manila,luzon
+143213000,City,tabuk,143200000,kalinga,luzon
+160202000,City,butuan,160200000,agusan del norte,mindanao
+031412000,City,meycauayan,031400000,bulacan,luzon
+045647000,City,tayabas,045600000,quezon,luzon
+050517000,City,tabaco,050500000,albay,luzon
+064510000,City,himamaylan,064500000,negros occidental,visayas
+083747000,City,tacloban,083700000,leyte,visayas
+086005000,City,catbalogan,086000000,samar,visayas
+101312000,City,malaybalay,101300000,bukidnon,mindanao
+137402000,City,marikina,133900000,metro manila,luzon
+166803000,City,bislig,166800000,surigao del sur,mindanao
+035401000,City,angeles,035400000,pampanga,luzon
+037107000,City,olongapo,037100000,zambales,luzon
+041028000,City,sto. tomas,041000000,batangas,luzon
+042103000,City,bacoor,042100000,cavite,luzon
+043425000,City,san pedro,043400000,laguna,luzon
+051724000,City,naga,051700000,camarines sur,luzon
+064502000,City,bago,064500000,negros occidental,visayas
+064526000,City,silay,064500000,negros occidental,visayas
+104215000,City,tangub,104200000,misamis occidental,mindanao
+104308000,City,gingoog,104300000,misamis oriental,mindanao
+175205000,City,calapan,175200000,oriental mindoro,luzon
+064515000,City,kabankalan,064500000,negros occidental,visayas
+072217000,City,cebu,072200000,cebu,visayas
+072230000,City,mandaue,072200000,cebu,visayas
+082604000,City,borongan,082600000,eastern samar,visayas
+112403000,City,digos,112400000,davao del sur,mindanao
+126511000,City,tacurong,126500000,sultan kudarat,mindanao
+015546000,City,urdaneta,015500000,pangasinan,luzon
+043405000,City,calamba,043400000,laguna,luzon
+175316000,City,puerto princesa,175300000,palawan,luzon
+072251000,City,toledo,072200000,cebu,visayas
+133900000,City,manila,133900000,metro manila,luzon
+137405000,City,san juan,133900000,metro manila,luzon
+160301000,City,bayugan,160300000,agusan del sur,mindanao
+012812000,City,laoag,012800000,ilocos norte,luzon
+012906000,City,candon,012900000,ilocos sur,luzon
+013314000,City,san fernando,013300000,la union,luzon
+023114000,City,ilagan,023100000,isabela,luzon
+023135000,City,santiago,023100000,isabela,luzon
+042109000,City,imus,042100000,cavite,luzon
+064523000,City,sagay,064500000,negros occidental,visayas
+064524000,City,san carlos,064500000,negros occidental,visayas
+097332000,City,zamboanga,097300000,zamboanga del sur,mindanao
+112509000,City,mati,112500000,davao oriental,mindanao
+023100000,Province,isabela,023100000,isabela,luzon
+067900000,Province,guimaras,067900000,guimaras,visayas
+103500000,Province,lanao del norte,103500000,lanao del norte,mindanao
+104200000,Province,misamis occidental,104200000,misamis occidental,mindanao
+118600000,Province,davao occidental,118600000,davao occidental,mindanao
+128000000,Province,sarangani,128000000,sarangani,mindanao
+148100000,Province,apayao,148100000,apayao,luzon
+160300000,Province,agusan del sur,160300000,agusan del sur,mindanao
+168500000,Province,dinagat islands,168500000,dinagat islands,mindanao
+052000000,Province,catanduanes,052000000,catanduanes,luzon
+063000000,Province,iloilo,063000000,iloilo,visayas
+126500000,Province,sultan kudarat,126500000,sultan kudarat,mindanao
+012800000,Province,ilocos norte,012800000,ilocos norte,luzon
+051600000,Province,camarines norte,051600000,camarines norte,luzon
+112500000,Province,davao oriental,112500000,davao oriental,mindanao
+144400000,Province,mountain province,144400000,mountain province,luzon
+156600000,Province,sulu,156600000,sulu,mindanao
+020900000,Province,batanes,020900000,batanes,luzon
+034900000,Province,nueva ecija,034900000,nueva ecija,luzon
+025000000,Province,nueva vizcaya,025000000,nueva vizcaya,luzon
+025700000,Province,quirino,025700000,quirino,luzon
+036900000,Province,tarlac,036900000,tarlac,luzon
+041000000,Province,batangas,041000000,batangas,luzon
+045800000,Province,rizal,045800000,rizal,luzon
+072200000,Province,cebu,072200000,cebu,visayas
+101300000,Province,bukidnon,101300000,bukidnon,mindanao
+160200000,Province,agusan del norte,160200000,agusan del norte,mindanao
+166800000,Province,surigao del sur,166800000,surigao del sur,mindanao
+030800000,Province,bataan,030800000,bataan,luzon
+043400000,Province,laguna,043400000,laguna,luzon
+174000000,Province,marinduque,174000000,marinduque,luzon
+175300000,Province,palawan,175300000,palawan,luzon
+056200000,Province,sorsogon,056200000,sorsogon,luzon
+076100000,Province,siquijor,076100000,siquijor,visayas
+082600000,Province,eastern samar,082600000,eastern samar,visayas
+143200000,Province,kalinga,143200000,kalinga,luzon
+175900000,Province,romblon,175900000,romblon,luzon
+054100000,Province,masbate,054100000,masbate,luzon
+087800000,Province,biliran,087800000,biliran,visayas
+112300000,Province,davao del norte,112300000,davao del norte,mindanao
+140100000,Province,abra,140100000,abra,luzon
+153800000,Province,maguindanao,153800000,maguindanao,mindanao
+021500000,Province,cagayan,021500000,cagayan,luzon
+060400000,Province,aklan,060400000,aklan,visayas
+141100000,Province,benguet,141100000,benguet,luzon
+031400000,Province,bulacan,031400000,bulacan,luzon
+037700000,Province,aurora,037700000,aurora,luzon
+064500000,Province,negros occidental,064500000,negros occidental,visayas
+112400000,Province,davao del sur,112400000,davao del sur,mindanao
+035400000,Province,pampanga,035400000,pampanga,luzon
+037100000,Province,zambales,037100000,zambales,luzon
+042100000,Province,cavite,042100000,cavite,luzon
+175100000,Province,occidental mindoro,175100000,occidental mindoro,luzon
+074600000,Province,negros oriental,074600000,negros oriental,visayas
+084800000,Province,northern samar,084800000,northern samar,visayas
+097200000,Province,zamboanga del norte,097200000,zamboanga del norte,mindanao
+098300000,Province,zamboanga sibugay,098300000,zamboanga sibugay,mindanao
+101800000,Province,camiguin,101800000,camiguin,mindanao
+126300000,Province,south cotabato,126300000,south cotabato,mindanao
+060600000,Province,antique,060600000,antique,visayas
+083700000,Province,leyte,083700000,leyte,visayas
+150700000,Province,basilan,150700000,basilan,mindanao
+012900000,Province,ilocos sur,012900000,ilocos sur,luzon
+051700000,Province,camarines sur,051700000,camarines sur,luzon
+086000000,Province,samar,086000000,samar,visayas
+104300000,Province,misamis oriental,104300000,misamis oriental,mindanao
+118200000,Province,davao de oro,118200000,davao de oro,mindanao
+175200000,Province,oriental mindoro,175200000,oriental mindoro,luzon
+061900000,Province,capiz,061900000,capiz,visayas
+153600000,Province,lanao del sur,153600000,lanao del sur,mindanao
+050500000,Province,albay,050500000,albay,luzon
+086400000,Province,southern leyte,086400000,southern leyte,visayas
+124700000,Province,cotabato,124700000,cotabato,mindanao
+166700000,Province,surigao del norte,166700000,surigao del norte,mindanao
+013300000,Province,la union,013300000,la union,luzon
+015500000,Province,pangasinan,015500000,pangasinan,luzon
+045600000,Province,quezon,045600000,quezon,luzon
+071200000,Province,bohol,071200000,bohol,visayas
+097300000,Province,zamboanga del sur,097300000,zamboanga del sur,mindanao
+142700000,Province,ifugao,142700000,ifugao,luzon
+157000000,Province,tawi-tawi,157000000,tawi-tawi,mindanao
+133900000,Province,metro manila,133900000,metro manila,luzon
