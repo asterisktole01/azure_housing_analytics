@@ -1,0 +1,201 @@
+geographyId,provinceCode,cityCode,provinceName,cityName,isCapital,islandGroup
+12805000,12800000,12805000,ilocos norte,batac,False,luzon
+12812000,12800000,12812000,ilocos norte,laoag,True,luzon
+12906000,12900000,12906000,ilocos sur,candon,False,luzon
+12934000,12900000,12934000,ilocos sur,vigan,True,luzon
+13314000,13300000,13314000,la union,san fernando,True,luzon
+15503000,15500000,15503000,pangasinan,alaminos,False,luzon
+15518000,15500000,15518000,pangasinan,dagupan,False,luzon
+15532000,15500000,15532000,pangasinan,san carlos,False,luzon
+15546000,15500000,15546000,pangasinan,urdaneta,False,luzon
+21529000,21500000,21529000,cagayan,tuguegarao,True,luzon
+23108000,23100000,23108000,isabela,cauayan,False,luzon
+23114000,23100000,23114000,isabela,ilagan,True,luzon
+23135000,23100000,23135000,isabela,santiago,False,luzon
+30803000,30800000,30803000,bataan,balanga,True,luzon
+31410000,31400000,31410000,bulacan,malolos,True,luzon
+31412000,31400000,31412000,bulacan,meycauayan,False,luzon
+31420000,31400000,31420000,bulacan,san jose del monte,False,luzon
+34903000,34900000,34903000,nueva ecija,cabanatuan,False,luzon
+34908000,34900000,34908000,nueva ecija,gapan,False,luzon
+34917000,34900000,34917000,nueva ecija,muñoz,False,luzon
+34919000,34900000,34919000,nueva ecija,palayan,True,luzon
+34926000,34900000,34926000,nueva ecija,san jose,False,luzon
+35401000,35400000,35401000,pampanga,angeles,False,luzon
+35409000,35400000,35409000,pampanga,mabalacat,False,luzon
+35416000,35400000,35416000,pampanga,san fernando,True,luzon
+36916000,36900000,36916000,tarlac,tarlac,True,luzon
+37107000,37100000,37107000,zambales,olongapo,False,luzon
+41005000,41000000,41005000,batangas,batangas,True,luzon
+41014000,41000000,41014000,batangas,lipa,False,luzon
+41028000,41000000,41028000,batangas,sto. tomas,False,luzon
+41031000,41000000,41031000,batangas,tanauan,False,luzon
+42103000,42100000,42103000,cavite,bacoor,False,luzon
+42105000,42100000,42105000,cavite,cavite,False,luzon
+42106000,42100000,42106000,cavite,dasmariñas,False,luzon
+42108000,42100000,42108000,cavite,general trias,False,luzon
+42109000,42100000,42109000,cavite,imus,False,luzon
+42119000,42100000,42119000,cavite,tagaytay,False,luzon
+42122000,42100000,42122000,cavite,trece martires,True,luzon
+43403000,43400000,43403000,laguna,biñan,False,luzon
+43404000,43400000,43404000,laguna,cabuyao,False,luzon
+43405000,43400000,43405000,laguna,calamba,False,luzon
+43424000,43400000,43424000,laguna,san pablo,False,luzon
+43425000,43400000,43425000,laguna,san pedro,False,luzon
+43428000,43400000,43428000,laguna,santa rosa,False,luzon
+45624000,45600000,45624000,quezon,lucena,True,luzon
+45647000,45600000,45647000,quezon,tayabas,False,luzon
+45802000,45800000,45802000,rizal,antipolo,True,luzon
+175205000,175200000,175205000,oriental mindoro,calapan,True,luzon
+175316000,175300000,175316000,palawan,puerto princesa,True,luzon
+50506000,50500000,50506000,albay,legazpi,True,luzon
+50508000,50500000,50508000,albay,ligao,False,luzon
+50517000,50500000,50517000,albay,tabaco,False,luzon
+51716000,51700000,51716000,camarines sur,iriga,False,luzon
+51724000,51700000,51724000,camarines sur,naga,False,luzon
+54111000,54100000,54111000,masbate,masbate,True,luzon
+56216000,56200000,56216000,sorsogon,sorsogon,True,luzon
+61914000,61900000,61914000,capiz,roxas,True,visayas
+63022000,63000000,63022000,iloilo,iloilo,True,visayas
+63035000,63000000,63035000,iloilo,passi,False,visayas
+64501000,64500000,64501000,negros occidental,bacolod,True,visayas
+64502000,64500000,64502000,negros occidental,bago,False,visayas
+64504000,64500000,64504000,negros occidental,cadiz,False,visayas
+64509000,64500000,64509000,negros occidental,escalante,False,visayas
+64510000,64500000,64510000,negros occidental,himamaylan,False,visayas
+64515000,64500000,64515000,negros occidental,kabankalan,False,visayas
+64516000,64500000,64516000,negros occidental,la carlota,False,visayas
+64523000,64500000,64523000,negros occidental,sagay,False,visayas
+64524000,64500000,64524000,negros occidental,san carlos,False,visayas
+64526000,64500000,64526000,negros occidental,silay,False,visayas
+64527000,64500000,64527000,negros occidental,sipalay,False,visayas
+64528000,64500000,64528000,negros occidental,talisay,False,visayas
+64531000,64500000,64531000,negros occidental,victorias,False,visayas
+71242000,71200000,71242000,bohol,tagbilaran,True,visayas
+72211000,72200000,72211000,cebu,bogo,False,visayas
+72214000,72200000,72214000,cebu,carcar,False,visayas
+72217000,72200000,72217000,cebu,cebu,True,visayas
+72223000,72200000,72223000,cebu,danao,False,visayas
+72226000,72200000,72226000,cebu,lapu-lapu,False,visayas
+72230000,72200000,72230000,cebu,mandaue,False,visayas
+72234000,72200000,72234000,cebu,naga,False,visayas
+72250000,72200000,72250000,cebu,talisay,False,visayas
+72251000,72200000,72251000,cebu,toledo,False,visayas
+74604000,74600000,74604000,negros oriental,bais,False,visayas
+74606000,74600000,74606000,negros oriental,bayawan,False,visayas
+74608000,74600000,74608000,negros oriental,canlaon,False,visayas
+74610000,74600000,74610000,negros oriental,dumaguete,True,visayas
+74611000,74600000,74611000,negros oriental,guihulngan,False,visayas
+74621000,74600000,74621000,negros oriental,tanjay,False,visayas
+82604000,82600000,82604000,eastern samar,borongan,True,visayas
+83708000,83700000,83708000,leyte,baybay,False,visayas
+83738000,83700000,83738000,leyte,ormoc,False,visayas
+83747000,83700000,83747000,leyte,tacloban,True,visayas
+86003000,86000000,86003000,samar,calbayog,False,visayas
+86005000,86000000,86005000,samar,catbalogan,True,visayas
+86407000,86400000,86407000,southern leyte,maasin,True,visayas
+97201000,97200000,97201000,zamboanga del norte,dapitan,False,mindanao
+97202000,97200000,97202000,zamboanga del norte,dipolog,True,mindanao
+97322000,97300000,97322000,zamboanga del sur,pagadian,True,mindanao
+97332000,97300000,97332000,zamboanga del sur,zamboanga,False,mindanao
+99701000,150700000,99701000,basilan,isabela,False,mindanao
+101312000,101300000,101312000,bukidnon,malaybalay,True,mindanao
+101321000,101300000,101321000,bukidnon,valencia,False,mindanao
+103504000,103500000,103504000,lanao del norte,iligan,False,mindanao
+104209000,104200000,104209000,misamis occidental,oroquieta,True,mindanao
+104210000,104200000,104210000,misamis occidental,ozamiz,False,mindanao
+104215000,104200000,104215000,misamis occidental,tangub,False,mindanao
+104305000,104300000,104305000,misamis oriental,cagayan de oro,True,mindanao
+104307000,104300000,104307000,misamis oriental,el salvador,False,mindanao
+104308000,104300000,104308000,misamis oriental,gingoog,False,mindanao
+112315000,112300000,112315000,davao del norte,panabo,False,mindanao
+112317000,112300000,112317000,davao del norte,samal,False,mindanao
+112319000,112300000,112319000,davao del norte,tagum,True,mindanao
+112402000,112400000,112402000,davao del sur,davao,False,mindanao
+112403000,112400000,112403000,davao del sur,digos,True,mindanao
+112509000,112500000,112509000,davao oriental,mati,True,mindanao
+124704000,124700000,124704000,north cotabato,kidapawan,True,mindanao
+126303000,126300000,126303000,south cotabato,general santos,False,mindanao
+126306000,126300000,126306000,south cotabato,koronadal,True,mindanao
+126511000,126500000,126511000,sultan kudarat,tacurong,False,mindanao
+133900000,130000000,133900000,metro manila,manila,False,luzon
+137401000,130000000,137401000,metro manila,mandaluyong,False,luzon
+137402000,130000000,137402000,metro manila,marikina,False,luzon
+137403000,130000000,137403000,metro manila,pasig,False,luzon
+137404000,130000000,137404000,metro manila,quezon,False,luzon
+137405000,130000000,137405000,metro manila,san juan,False,luzon
+137501000,130000000,137501000,metro manila,caloocan,False,luzon
+137502000,130000000,137502000,metro manila,malabon,False,luzon
+137503000,130000000,137503000,metro manila,navotas,False,luzon
+137504000,130000000,137504000,metro manila,valenzuela,False,luzon
+137601000,130000000,137601000,metro manila,las piñas,False,luzon
+137602000,130000000,137602000,metro manila,makati,False,luzon
+137603000,130000000,137603000,metro manila,muntinlupa,False,luzon
+137604000,130000000,137604000,metro manila,parañaque,False,luzon
+137605000,130000000,137605000,metro manila,pasay,False,luzon
+137607000,130000000,137607000,metro manila,taguig,False,luzon
+141102000,141100000,141102000,benguet,baguio,False,luzon
+143213000,143200000,143213000,kalinga,tabuk,True,luzon
+160202000,160200000,160202000,agusan del norte,butuan,True,mindanao
+160203000,160200000,160203000,agusan del norte,cabadbaran,False,mindanao
+160301000,160300000,160301000,agusan del sur,bayugan,False,mindanao
+166724000,166700000,166724000,surigao del norte,surigao,True,mindanao
+166803000,166800000,166803000,surigao del sur,bislig,False,mindanao
+166819000,166800000,166819000,surigao del sur,tandag,True,mindanao
+150702000,150700000,150702000,basilan,lamitan,True,mindanao
+153617000,153600000,153617000,lanao del sur,marawi,True,mindanao
+129804000,124700000,129804000,north cotabato,cotabato,False,mindanao
+12800000,12800000,,ilocos norte,,False,luzon
+12900000,12900000,,ilocos sur,,False,luzon
+13300000,13300000,,la union,,False,luzon
+15500000,15500000,,pangasinan,,False,luzon
+21500000,21500000,,cagayan,,False,luzon
+23100000,23100000,,isabela,,False,luzon
+30800000,30800000,,bataan,,False,luzon
+31400000,31400000,,bulacan,,False,luzon
+34900000,34900000,,nueva ecija,,False,luzon
+35400000,35400000,,pampanga,,False,luzon
+36900000,36900000,,tarlac,,False,luzon
+37100000,37100000,,zambales,,False,luzon
+41000000,41000000,,batangas,,False,luzon
+42100000,42100000,,cavite,,False,luzon
+43400000,43400000,,laguna,,False,luzon
+45600000,45600000,,quezon,,False,luzon
+45800000,45800000,,rizal,,False,luzon
+175200000,175200000,,oriental mindoro,,False,luzon
+175300000,175300000,,palawan,,False,luzon
+50500000,50500000,,albay,,False,luzon
+51700000,51700000,,camarines sur,,False,luzon
+54100000,54100000,,masbate,,False,luzon
+56200000,56200000,,sorsogon,,False,luzon
+61900000,61900000,,capiz,,False,visayas
+63000000,63000000,,iloilo,,False,visayas
+64500000,64500000,,negros occidental,,False,visayas
+71200000,71200000,,bohol,,False,visayas
+72200000,72200000,,cebu,,False,visayas
+74600000,74600000,,negros oriental,,False,visayas
+82600000,82600000,,eastern samar,,False,visayas
+83700000,83700000,,leyte,,False,visayas
+86000000,86000000,,samar,,False,visayas
+86400000,86400000,,southern leyte,,False,visayas
+97200000,97200000,,zamboanga del norte,,False,mindanao
+97300000,97300000,,zamboanga del sur,,False,mindanao
+150700000,150700000,,basilan,,False,mindanao
+101300000,101300000,,bukidnon,,False,mindanao
+103500000,103500000,,lanao del norte,,False,mindanao
+104200000,104200000,,misamis occidental,,False,mindanao
+104300000,104300000,,misamis oriental,,False,mindanao
+112300000,112300000,,davao del norte,,False,mindanao
+112400000,112400000,,davao del sur,,False,mindanao
+112500000,112500000,,davao oriental,,False,mindanao
+124700000,124700000,,north cotabato,,False,mindanao
+126300000,126300000,,south cotabato,,False,mindanao
+126500000,126500000,,sultan kudarat,,False,mindanao
+130000000,130000000,,metro manila,,False,luzon
+141100000,141100000,,benguet,,False,luzon
+143200000,143200000,,kalinga,,False,luzon
+160200000,160200000,,agusan del norte,,False,mindanao
+160300000,160300000,,agusan del sur,,False,mindanao
+166700000,166700000,,surigao del norte,,False,mindanao
+166800000,166800000,,surigao del sur,,False,mindanao
+153600000,153600000,,lanao del sur,,False,mindanao
